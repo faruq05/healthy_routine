@@ -253,7 +253,9 @@ header {
 .header-btn {
   margin-left: 24px;
 }
-
+.nav-item{
+  text-align: center;
+}
 /* header end */
 
 /* hero starts */
@@ -286,6 +288,9 @@ header {
 
 .hero_content {
   text-align: left;
+}
+.header-social{
+  margin: auto;
 }
 
 /* hero ends */
@@ -443,6 +448,28 @@ tr {
 .btn-cs2:hover{
   background-color: #779953;
 }
-.table-responsive {
+.main-wrapper{
+  width: 100%;
+  border: transparent;
   overflow-x: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.responsive-table{
+  display: inline-block;
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.responsive-table > table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.responsive-table > table td, th {
+  border: 1px solid transparent;
+  padding: 8px;
+  font-family: Arial;
+  font-size: 16px;
 }
